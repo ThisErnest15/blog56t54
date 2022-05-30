@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+}
+
+.nav {
+    background-color: black;
+    color: white;
+}
+
+ul {
+    margin: 0;
+    display: flex;
+}
+
+.nav-li {
+    list-style: none;
+    padding: 1vh 3vw;
+}
+
+.nav-li:hover {
+    color: rgb(200, 203, 0);
+    cursor: pointer;
+}
+
+.row {
+    display: flex;
+}
+
+.col {
+    width: 49vw;
+}
+.text {
+	padding: 5vw;
+}
